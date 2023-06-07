@@ -9,7 +9,7 @@ const CarForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Agrega aquí la lógica para enviar los datos del auto a la base de datos
+        // Agrega aquí la lógica para enviar los datos del auto a la base de da
         console.log('Datos del auto:', carData);
         setCarData({ make: '', model: '', year: '' });
     };
